@@ -1,21 +1,52 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package basicosmarynaulasava;
 
-/**
- *
- * @author Maryna Ulasava
- */
 public class BasicosMarynaUlasava {
+ //ejemplo de uso de operadores lógicos
+    public static void logicos(){
+        
+        int a; //declaración de las variables
+        int b;
+        boolean resultado=false;
+        
+        a=5; //asignación del valor a las variables
+        b=10;
+        if(a==b){
+         resultado=true;
+         }
+        
+        //mostrar en pantalla el resultado de la operación lógica booleana
+        if(resultado){ 
+            System.out.println("a y b son iguales");
+        
+        }
+        else{
+            System.out.println("a y b son distintos");
+        } 
 
-    /**
-     * @param args the command line arguments
-     */
+        
+        //mostrar en pantalla el resultado de la operación lógica
+        System.out.print("Si a = "+ a + " y b = "+ b + ", entonces " );
+        
+        if (a<b){
+            System.out.println("a es menor que b");
+        }
+        else if(a>b){
+            System.out.println("a es mayor que b");
+        }
+         
+        else{
+        System.out.println("a es igual que b");
+        }
+    
+    }
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
+        logicos(); //llamada al método
+    }
+        
     }
     
-}
+
