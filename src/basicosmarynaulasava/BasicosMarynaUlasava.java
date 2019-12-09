@@ -18,7 +18,7 @@ public class BasicosMarynaUlasava {
         
         //mostrar en pantalla el contenido del String
         System.out.println(s3);
-        
+    } 
     /* Método para mostrar ejemplos de tipos numericos.*/
      
     public static void numericos() {
